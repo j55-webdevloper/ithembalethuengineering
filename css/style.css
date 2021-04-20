@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+/* Custom Styles */
+.blue-text {
+    color: #11214A !important;
+    text-decoration: none !important;
+}
+
+.bright-text {
+    color: #FFA500 !important;
+}
+
+/* Hero / Navbar */
+#hero {
+    background-image: url(../images/hero.jpg);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-item > .nav-link {
+    color: white !important;
+}
+
+.nav-item > .nav-link:hover {
+    color: #FFA500 !important;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+
+#logo {
+    width: 170px;
+}
+
+.border-bottom-faded {
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-eng {
+    text-decoration: none !important;
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: white;
+    color: #11214A;
+    font-weight: 600;
+}
+
+.btn-eng:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+/* About */
+.worker-block {
+    border: 10px solid #11214A;
+    color: #11214A;
+}
+
+.worker-block:hover {
+    border: 10px solid #FFA500;
+    color: #FFA500;
+}
+
+/* Services */
+.modal-link {
+    cursor: pointer;
+}
+
+.modal-link:hover {
+    color: #FFA500 !important;
+}
+
+/* Contact */
+#contact {
+    margin-top: 100px !important;
+}
+
+#form {
+    background-color: #11214A;
+}
+
+.btn-bright,
+.btn-bright:hover {
+    color: white;
+    background: #FFA500;
+}
+
+/* Footer */
+#footer {
+    background: #11214A;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar-collapse.abs{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
